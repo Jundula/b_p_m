@@ -70,9 +70,9 @@ function Header() {
 
           {/* <p className="header_link ease">Pricing</p> */}
         </div>
-        <div className="group flex items-center justify-center absolute right-1/2 translate-x-1/2 top-0 z-10  ">
+        <div className="group flex items-center justify-center absolute right-1/2 translate-x-1/2 top-0 z-20  ">
           {!isShrunk && (
-            <div className="hidden h-124 w-124 md:flex items-center cursor-pointer  transition-all duration-500 ease-in">
+            <div className="hidden h-124 w-124 md:flex items-center cursor-pointer  transition-all duration-500 ease-in z-20">
               <Image src={LogoB} width={120} height={192} objectFit="contain" />
             </div>
           )}
