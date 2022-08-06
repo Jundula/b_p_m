@@ -22,7 +22,9 @@ export default function Footer() {
               <Link href="/">
                 <p className="footer_link ease">Inicio</p>
               </Link>
-              <p className="footer_link ease">Servicio</p>
+              <Link href="#servicios">
+              <p className="footer_link ease">Servicios</p>
+              </Link>
               <Link href="#maps">
                 <p className="footer_link ease">Horario</p>
               </Link>

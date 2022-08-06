@@ -4,7 +4,7 @@ import React from "react";
 
 function ReviewUI({ time, rating, profile_photo_url, text, author_name }) {
   return (
-    <div className="relative lg:h-72 w-80  rounded-xl hover:shadow-xl border bg-white  transition-all duration-200 ease hover:scale-105  mx-4  ">
+    <div className="relative lg:h-72 w-60 sm:w-80  rounded-xl hover:shadow-xl border bg-white  transition-all duration-200 ease hover:scale-105  mx-4  ">
       <div className="absolute right-1/2 -top-4 lg:-top-8  translate-x-1/2 h-8 w-8  lg:h-16 lg:w-16 ">
         <Image src={profile_photo_url} className="rounded-xl" layout="fill" />
       </div>

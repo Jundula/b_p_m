@@ -9,8 +9,8 @@ import Six from "../images/Six.jpg";
 
 export default function Galleria() {
   return (
-    <section id="galleria" className="group flex flex-col items-center h-screen max-w-7xl mx-auto mt-16 mb-64 lg:mb-0">
-      <h1 className="mb-4 text-xl md:text-4xl text-[#222449] font-Angkor  group-hover:text-red-600 transition-all duration-300 ease">GALERIA</h1>
+    <section id="galleria" className="group flex flex-col items-center h-screen max-w-7xl mx-auto mt-16 mb-72 lg:mb-0">
+      <h1 className="mb-4 text-2xl md:text-4xl text-[#222449] font-Angkor  group-hover:text-red-600 transition-all duration-300 ease">GALERIA</h1>
       <h2 className="mb-16 text-lg md:text-2xl text-[#222449] font-Angkor ">Nuestros clientes satisfechos</h2>
       <div className=" flex items-center justify-center">
         <div className="flex flex-col lg:flex-row items-center justify-center lg:space-x-8 ">

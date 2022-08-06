@@ -8,7 +8,7 @@ function Maps() {
       <div className=" ">
         <div className="flex flex-col-reverse items-center md:flex-row-reverse justify-aroud max-w-7xl mx-auto  ">
           <div className="group p-8 flex flex-col items-center md:items-start flex-grow ">
-            <span className=" tmb-16 text-xl md:text-4xl text-[#222449] font-Angkor  group-hover:text-red-600 transition-all duration-300 ease">HORARIO & CONTACTO</span>
+            <span className=" text-center mb-4 text-2xl md:text-4xl text-[#222449] font-Angkor  group-hover:text-red-600 transition-all duration-300 ease">HORARIO & CONTACTO</span>
             <h2 className="text-xl md:text-2xl text-[#222449] font-Angkor mt-4  mb-8">
               Tienda en <span className=" font-Montserrat group-hover:text-red-600 transition-all duration-300 ease">Puebla</span>
             </h2>

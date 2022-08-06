@@ -8,6 +8,8 @@ import Reviews from "../components/Reviews";
 import Maps from "../components/Maps";
 import Footer from "../components/Footer";
 import { reviews } from "../reviews_data";
+import bgXS from '../images/BarberXS.svg'
+import bgB from '../images/Barber5.svg'
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -30,7 +32,7 @@ const Home = () => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-[url('../images/BarberXS.svg')] lg:bg-[url('../images/Barber5.svg')] bg-cover bg-center	  bg-no-repeat">
+      <div className="bg-bgXS lg:bg-bgS bg-cover bg-center	  bg-no-repeat">
         <Header />
         <Landing /> 
       </div>

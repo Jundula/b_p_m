@@ -6,9 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        bgXS: "url('../images/BarberXS.svg')",
+        bgS: "url('../images/Barber5.svg')",
+      },
       fontFamily: {
-        'Angkor': ['Angkor', 'cursive'],
-        'Poppins': ['Poppins', 'sans-serif'] 
+        Angkor: ["Angkor", "cursive"],
+        Poppins: ["Poppins", "sans-serif"],
       },
     },
   },

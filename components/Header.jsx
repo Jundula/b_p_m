@@ -51,13 +51,13 @@ function Header() {
 
   return (
     <header
-      className={classNames(" flex items-center  mx-auto px-4  w-full  h-16 ", {
-        " transition-all duration-300 ease  mx-auto px-4 bg-black bg-opacity-40  backdrop-blur-xl shadow-md w-full fixed z-20 ":
+      className={classNames(" flex items-center  mx-auto   w-full  h-16 ", {
+        " transition-all duration-300 ease  mx-auto  bg-black bg-opacity-40  backdrop-blur-xl shadow-md w-full fixed z-20 ":
           isShrunk,
       })}
     >
       <div className="flex justify-end items-center md:justify-between flex-grow max-w-7xl mx-auto ">
-        <div className=" text-sm lg:text-base items-center  justify-around hidden md:inline-flex space-x-16 ">
+        <div className=" text-sm lg:text-base items-center  justify-around hidden md:inline-flex space-x-8 lg:space-x-16 ">
           <Link href="/">
             <p className="header_link ease">INICIO</p>
           </Link>
@@ -95,7 +95,7 @@ function Header() {
               exit={{ rotate: 0 }}
             >
               <XIcon
-                className="h-8 md:hidden text-white  transition-all duration-300 ease cursor-pointer "
+                className="h-8 md:hidden text-white  transition-all duration-300 ease cursor-pointer m-2 "
                 onClick={(e) => {
                   setShowB(!showB);
                 }}
@@ -108,7 +108,7 @@ function Header() {
               exit={{ rotate: 0 }}
             >
               <MenuIcon
-                className="h-8 md:hidden text-white transition-all duration-300 ease cursor-pointer "
+                className="h-8 md:hidden text-white transition-all duration-300 ease cursor-pointer m-2 "
                 onClick={(e) => {
                   setShowB(!showB);
                 }}
@@ -162,7 +162,7 @@ function Header() {
             </motion.div>
           )}
         </AnimatePresence>
-        <div className="   text-sm lg:text-base items-center  justify-around hidden md:inline-flex space-x-16 ">
+        <div className="   text-sm lg:text-base items-center  justify-around hidden md:inline-flex space-x-8 lg:space-x-16 ">
           <Link href="#galleria">
             <p className="header_link ease">GALERIA</p>
           </Link>
