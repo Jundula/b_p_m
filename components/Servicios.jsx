@@ -12,7 +12,7 @@ function Servicios() {
         SERVICOS
       </h1>
       <h2 className="mb-4 text-lg md:text-2xl text-[#222449] font-Angkor ">
-        Parte de nuesros servicios
+        Parte de nuestros servicios
       </h2>
       <div>
         <div className="flex flex-col-reverse items-center md:flex-row-reverse justify-aroud max-w-7xl mx-auto  ">
