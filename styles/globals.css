@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer components {
+  .header_link {
+   
+      @apply text-gray-100 hover:text-red-600 hover:scale-105 transition-all duration-300 cursor-pointer md:px-4 font-extralight ;
+    }
+    .header_link_B {
+   
+      @apply text-gray-600 hover:text-red-600 hover:scale-105 transition-all duration-300 cursor-pointer my-4 text-left pl-2;
+    }
+    .footer_link {
+   
+      @apply text-gray-600 hover:text-red-600 hover:scale-105 transition-all duration-300 cursor-pointer my-5  text-center;
+    }
+  
+}
