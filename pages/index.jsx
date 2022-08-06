@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>B.P.M</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="relative  ">
