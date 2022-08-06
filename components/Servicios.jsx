@@ -9,7 +9,7 @@ function Servicios() {
       className="group flex flex-col items-center h-screen max-w-7xl mx-auto mt-16 mb-80 lg:mb-0"
     >
       <h1 className="mb-4 mt-4 text-2xl md:text-4xl text-[#222449] font-Angkor  group-hover:text-red-600 transition-all duration-300 ease">
-        SERVICOS
+        SERVICIOS
       </h1>
       <h2 className="mb-4 text-lg md:text-2xl text-[#222449] font-Angkor ">
         Parte de nuestros servicios
